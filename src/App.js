@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-
+// import { useState } from 'react'
+import './App.css'
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	let age =20
+	const tekshirish = () => {
+		if (age < 18) {
+			document.getElementById('on').style.backgroundColor = 'red'
+			document.getElementById('on').disabled = true
+		} else if (age >= 18) {
+			document.getElementById('on').style.backgroundColor = 'green'
+		}
+	}
+	const bosganda = () => {
+		if (document.getElementById('on').style.backgroundColor === 'green') {
+			alert('siz 18 yoshdan kattasiz')
+		}
+	}
+	return (
+		<div>
+			<button onClick={tekshirish}>Tekshirish</button>
+			<button id='on' onClick={bosganda}>
+				18+
+			</button>
+		</div>
+	)
 }
 
-export default App;
+export default App
