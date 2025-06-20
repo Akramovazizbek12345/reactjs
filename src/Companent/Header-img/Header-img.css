@@ -1,0 +1,43 @@
+.Background-image{
+	background-image: url(../../../public/images/bg_header.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 350px;
+}
+
+.header_katta_text{
+	font-size: 40px;
+	text-align: center;
+	color: white;
+	margin-top: 0px;
+	padding-top: 140px;
+}
+
+.header_kichik_text{
+	font-size: 14px;
+	text-align: center;
+	color: white;
+	margin-top: -40px;
+}
+
+.button1{
+	padding: 12px 50px;
+	color: white;
+	opacity: 10;
+	background: none;
+	border:  2px solid white;
+	cursor: pointer;
+	margin-left: 480px;
+	font-weight: 600;
+}
+
+.button2{
+	padding: 14px 50px;
+	color: white;
+	opacity: 10;
+	background-color: rgb(238, 202, 21);
+	cursor: pointer;
+	border: none;
+	margin-left: 5px;
+	font-weight: 600;
+}

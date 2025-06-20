@@ -1,0 +1,55 @@
+.navbar{
+	background-color: black;
+	padding-left: 100px;
+	height: 70px;
+}
+
+.navbar img{
+	height: 30px;
+	padding-top: 15px;
+}
+
+.navbar_divi{
+	display: inline-block;
+	margin-left: 570px;
+	color: white;
+}
+
+.navbar_divi a{
+	padding: 20px;
+	color: rgb(93, 91, 91);
+	text-decoration: none;
+}
+
+.navbar_divi a:hover{
+	color: white;
+}
+
+.navbar_divi div{
+	display: inline-block;
+	padding: 5px 5px 6px 5px;
+	border: 1px solid rgb(93, 91, 91);
+	color: rgb(93, 91, 91);
+}
+
+.navbar_divi div:hover{
+	color: white;
+	border: 1px solid white;
+	cursor: pointer;
+}
+
+.activ{
+	color: white;
+}
+
+.navbar_divi select{
+	color: rgb(93, 91, 91);
+	background-color: black;
+	border: none;
+	outline: none;
+}
+
+.navbar_divi select:hover{
+	color: white;
+	cursor: pointer;
+}

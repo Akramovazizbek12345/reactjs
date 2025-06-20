@@ -1,0 +1,49 @@
+*{
+	padding: 0;
+}
+.foter_baground{
+	background-color: #333;
+	padding-left: 80px;
+	height: 200px;
+	margin-top: 90px;
+	color: white;
+	line-height: 10px;
+}
+
+.foter_baground p{
+	font-size: 12px;
+}
+
+.foter_baground h2{
+	padding-top: 15px;
+}
+
+.foter_baground div{
+	display: inline-block;
+	margin-left: 50px;
+	width: 280px;
+}
+
+.oxirgi_footer_div{
+	width: 500px !important;
+}
+
+.oxirgi_footer_div h2{
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+.Contact_div{
+	position: relative;
+	top: -70px;
+}
+
+.follow_me{
+position: relative;
+top: -100px;
+}
+
+.follow_me i{
+	font-size: 25px;
+	padding: 8px;
+}

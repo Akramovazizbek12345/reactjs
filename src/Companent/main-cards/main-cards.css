@@ -1,0 +1,17 @@
+.cards{
+	width: 250px;
+	text-align: center;
+	display: inline-block;
+	/* margin-left: 20px; */
+	font-size: 15px;
+	margin-top: 50px;
+	margin-left: 65px;
+}
+
+.cards div{
+	margin-left: 20px;
+}
+
+.cards i{
+	font-size: 45px;
+}

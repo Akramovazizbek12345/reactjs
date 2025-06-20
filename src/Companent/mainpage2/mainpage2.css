@@ -1,0 +1,27 @@
+.friequently{
+	text-align: center;
+	font-size: 30px;
+}
+.surishmainpage2{
+	margin-left: 90px;
+		margin-top: 60px;
+}
+
+.mainpage2_card{
+	padding: 15px 30px 15px 30px;
+	background-color: rgb(235, 233, 233);
+	max-width: 1050px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.mainpage2_card_button{
+	padding: 11px 25px;
+	background-color: #e3801d;
+	border: none;
+	color: white;
+	font-weight: 600;
+	margin-left: 900px;
+	border-radius: 4px;
+	cursor: pointer;
+}
